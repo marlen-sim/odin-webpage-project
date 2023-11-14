@@ -1,0 +1,45 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+ --color-background-primary: #1f2937;
+ --color-text-primary: #f9faf8;
+ --color-text-secondary: #e5e7eb;
+ --color-button-background: #3882f6;
+ --color-text: #1f2937;
+
+ --font-size-extra-bold-primary: 48px;
+ --font-size-extra-bold-secondary: 36px;
+ --font-size-logo: 24px;
+ --font-size-text-secondary: 18px;
+
+ --container-width: 1200px;
+ --container-padding: 15px;
+ 
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+}  
+
+.container {
+    width: var(--container-width);
+    padding: 0 var(--container-padding);
+    
+}
+
+.main {
+    height: 100%;
+    flex: 1;
+    
+
+}
