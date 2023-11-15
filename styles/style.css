@@ -141,6 +141,7 @@ a {
     font-size: var(--font-size-text-secondary);
     font-weight: var(--font-weght-bold);
     padding: 8px 35px;
+    cursor: pointer;
 }
 
 .header-content__btn {
@@ -221,4 +222,44 @@ a {
     flex-direction: row-reverse;
     color: var(--color-text);
     font-weight: var(--font-weght-bold);
+}
+
+/* Футер */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: var(--color-background-primary);
+}
+
+.copyright {
+    padding:20px 15px;
+    text-align: center;
+
+}
+
+/* Зарегистрироваться */
+
+.sighnup { 
+    display: flex;
+    align-items: center;
+    padding: 120px 0px;
+
+}
+
+.signup-content {
+    width: 100%;
+    background-color: var(--color-button-background);
+    border-radius: 6px;
+    padding:60px 120px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.sighnup__btn{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: var(--color-text-primary);
+
 }
